@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./img/logo3.png" type="logo3/png">
+    <title>Hency R. Shah & Associates</title>
+
+    <style>
+      body {
+        background-image: url(./img/bg2.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+<body>
+     <nav class="top-border">
+</nav>  
+
+<div class="header">
+  <div class="navbar-logo">
+    <a href="index.html"><img src="img\logo3.png" alt="Logo"></a>
+    </div>
+    <div class="navbar-txt">
+     <h6>Hency R. Shah & Associates</h6>
+      <h5>(Charterd Accountant)</h5>
+    </div>
+  <nav >
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="newsrooom.html">Newsroom</a></li>
+      <li><a href="conatct.html">Contact</a></li>
+      <li><a href="query.html">Query</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+<div class="modalpq">
+    <form class="form">
+      <div class="banner"></div> 
+       <label class="title2"> ENQUIRE US</label>
+        <div class="tab-container">
+      </div>
+
+    
+    <div class="containerc">
+        <form action="process_form.php" method="post" class="formc">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br>
+            <br>
+            
+            <label for="email" class="labalc">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+            <br>
+
+            <label for="phone" class="labalc">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <br>
+            <br>
+             <label for="office_address" class="labalc">Office Address:</label>
+            <textarea id="office_address" name="office_address" rows="2" required></textarea>
+            <br>
+            <br>
+
+            <label for="city" class="labalc">City:</label>
+            <input type="text" id="phone" name="phone" required>
+            <br>
+            <br>
+
+
+          
+
+            <label for="subject">Subject of Query:</label>
+<input type="text" id="subject" list="serviceList" >
+
+<datalist id="serviceList">
+  <option value="Taxation">
+  <option value="Audit & Assurance">
+  <option value="Accounting & Payroll">
+  <option value="Forensic Audit">
+  <option value="Due Diligence">
+    <option value="Income Tax">
+      <option value="Goods & Service Tax">
+      <option value="Finance">
+        <option value="Others">
+</datalist>
+<br>
+            <br>
+            
+            <label for="query" class="labalc">Query:</label>
+            <textarea id="query" name="query" rows="6" required></textarea>
+            
+           <input type="submit" value="Submit">
+        </form>
+      </form>
+</div>
+
